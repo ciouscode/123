@@ -1,0 +1,689 @@
+import time
+
+def slow(string):
+    for i in string:
+        print(i, end="")
+        time.sleep(0.05)
+
+def upper(prompt):
+    return input(prompt).upper()
+
+while True:
+    title = "\n PICTURE PERFECT  °˖☆ [◉°]\n"
+    slow(title)
+           
+    menu = "\n: ¨·.·¨ :\n· .⠀ MENU ᵎᵎ\n· • — ٠ ✤ ٠ — • ·"
+    time.sleep(1)
+    slow(menu)
+    time.sleep(1)
+    print("\n ┊       ┊       ┊\n ┊       ┊       ┊\n ┊       ┊       ☆\n ┊       ☆     CREDITS\n ☆     QUIT\nPLAY")
+    time.sleep(1)
+    choice = upper("\n>>  ")
+    
+    if choice == 'PLAY':
+        for _ in range(3):
+            print(".")
+            time.sleep(0.8)
+        
+        first_dialogue = ">   You shift uncomfortably in your bed as your red, blaring alarm screams in your ears. The birds chirp outside, the sky moves at its own pace, and today is a new day.\n\n. . . \n[O]  Wake up."
+        slow(first_dialogue)
+        time.sleep(1)
+        
+        while True: 
+            O_1 = upper("\n>>  ")
+            if O_1 == 'O':
+                wake_up = "\n..\n[O]  Wake up."
+                slow(wake_up)
+                time.sleep(1)
+                O_2 = upper("\n>>  ")
+
+                if O_2 == 'O':
+                    wake_up2 = "\n.\n[O]  Wake up."
+                    slow(wake_up2)
+                    time.sleep(1)
+                    O_3 = upper("\n>>  ")
+
+                    if O_3 == 'O':
+                        slow("\n>   You stir awake, eyes weary and vision blurred. The light outside doesn’t reach you, thankfully, because of the blackout blinds you installed. In an instant, you hop off your bed and put on slippers, going outside of your room despite having a messy appearance.")
+                        break
+
+        while True:
+            slow("\n\nQ:  Do you want to go downstairs?\n[O]  Yes. \n[X]   No, I’ll stay in my room for a while.")
+            time.sleep(0.5)
+            hoice_2 = upper("\n>>  ")
+           
+            if choice_2 == 'O':
+                slow("\n>  You start to go down the stairs, greeted by the smell of breakfast coming from the kitchen. The clock at the end of the stairs, near the front door, says that it’s currently 5:40 AM. Like routine, you make your way over to the kitchen. ")
+                break
+
+            elif upper("\n>>  ") == 'X':
+                slow("\n>  You turn back and go into your room again. Upon opening the door, you realize the mess you’ve created last week. Your camera is discarded on your study table, there are bundles of clothing in a corner, and the glass cups you’ve carried up here from the kitchen still remain unused. You grimace. The sight makes you spin back around and go out. \n\n>  You start to go down the stairs, greeted by the smell of breakfast coming from the kitchen. The clock at the end of the stairs, near the front door, says that it’s currently 5:40 AM. Like routine, you make your way over to the kitchen. ")
+                break
+
+        slow("\n\n>  Your mother is there, near the stovetop. She sports a wide smile unfit for the morning, you think. You try to smile back, though it fails, and in response, she laughs wholeheartedly at your attempt and beckons you to sit down. \n\n >>  “Good morning!” Mother says. You hum instead of a proper reply. “I have your favourite, right over here.”\n\n>  She maneuvers in between the kitchen furniture with such ease, and in the same way you think is impossible, because your kitchen is full of unnecessary stuff. For example, on the corner to your right, there are suitcases and luggages prepared for the business trip your parents are going on three days from now. On your left, boxes upon rows of boxes for whatever reason you cannot begin to fathom. \n\n>  You forget your mother is in the room. She’s carrying something—a plate full of steamed buns for you and your sister—on her right hand, and is carefully placing it right in front of you. She smiles, again, and you wonder if it has been programmed into her system to smile everyday. \n\n>  She kisses the crown of your head to say goodbye after delivering your breakfast and is in the middle of going upstairs, untying her apron at the doorway of the room. Something is stuck in your throat, clawing, desperate to get out.")
+
+        while True:
+            slow("\n\nQ:  Call your mother’s name? \n[O]  Mom! \n[X]  (Stay quiet.)\n")
+            time.sleep(0.5)
+            choice_3 = upper("\n>> ")
+
+            if choice_3 == 'O':
+                slow(">>  She looks back, confused. “Yes?” \n\n>>  It takes you a moment to respond, too engrossed in your mindless thoughts. “I’ll go home late today.” You say. “Photography club activity. I need to be there.” \n\n>>  “Of course!” Mother replies, as cheerful as ever. She agrees with everything and anything. “Give me a text if you need a ride. your dad’s always willing, bǎo bèi.” \n(TN: ‘bǎo bèi.’ means ‘baby’ in Chinese.) \n\n>  You zip your mouth, resorting to eating the steamed buns your mother has prepared, as you mindlessly listen to the sounds of her slippers against the wood of the stairs. You do not have anything else to say or anything else to remind her of.")
+                break
+
+            elif choice_3 == 'x':
+                slow(">  You zip your mouth, resorting to eating the steamed buns your mother has prepared, as you mindlessly listen to the sounds of her slippers against the wood of the stairs. You do not have anything else to say or anything else to remind her of.")
+                break
+
+        slow("\n>  Your plate is licked clean save for the three steamed buns on another plate which you assume is for your sister. Almost like instinct, you roll your eyes at the sudden thought of her. You drag your body up from the kitchen chair and push it into the table again. By the time you finish putting your plate in the sink, you’re already sprinting up the stairs. You glance at the clock— It tells you that it’s 5:55 AM. The clock doesn’t say, but it’s an invisible message telling you to hurry. \n\n>  At the top of the stairs, you do not pay any attention to your sister’s door. You know your mother is in her room, and father is already out and about working. You head into your room and make a beeline towards the bathroom. You take a shower.\n")
+
+        for _ in range(3):
+            print(".")
+            time.sleep(0.8)
+                
+            slow(">  It was a very quick shower, because the clock’s time had made you paranoid. You’re already in your fitted uniform and you have finished tidying up your desk, camera carefully inside its bag and ready to hang around your neck. All you need is to wear your glasses and look for your shoes, and you’re ready to go to school. You go outside of your room.")
+
+        while True:
+            slow("\n\nQ:  Knock on your sister’s door? \n[O]  Yes. \n[X]   No.")
+            time.sleep(0.5)
+            choice_5 = upper("\n>> ")
+            
+            if choice_5 == 'O':
+                slow(">  One. Two. Three. There’s no answer. Again— One, two, three. No answer. You roll your eyes and give up quickly. Being the early bird she is, you’re sure that your sister, Xiangjin, has already made her way over to your school. Bag in hand, you go down the stairs and look at the clock again. The clock tells you that it’s 6:15. It also tells you, ‘you better get going’.")
+                break
+
+            elif choice_5 == 'X':
+                slow(">  One. Two. Three. You inhale and exhale and decide not to do anything. Xiangjin, your sister, is probably already at school, being the early bird she is.Bag in hand, you go down the stairs and look at the clock again. The clock tells you that it’s 6:15. It also tells you, ‘you better get going’.")
+                break
+                
+            slow(">  Your shoes are just at the front door. You slip them on with little to no problem. Taking one, good look at the house again, you walk out and close the front door behind you. Your mother will soon be downstairs enough, so there’s no need to be anxious about anything.\n\n>  School is waiting. You walk hurriedly along the sidewalk.\n")
+            for _ in range(3):
+                print(".")
+                time.sleep(0.8)
+                
+            slow(">  Inside the front entrance of your school, there’s also a clock. This clock displays the time as 6:30 AM. The morning assembly starts at 7:00 AM. There’s no need to panic. After putting your heavy bag into your locker, someone—a friend of yours—calls you over. \n\n>>  “Xiejin!”  You hear your name roll off Minzhei’s tongue. “Good morning.” He has this wide, uncontrolled smile as he stands near the end of the stairs leading upstairs.")
+
+        while True:
+            slow("\n\nQ:  Speak with Minzhei? \n[O]  Yes, I need to ask him about something. \n[X]   No, make up an excuse. \n")
+            time.sleep(0.5)
+            choice_6 = upper("\n>> ")
+            
+            if choice_6 == 'O':
+                slow(">>  You nod to acknowledge him. “Morning.” \n\n>  “What’s up?” He asks, and you shake your head. “Nothing much. Are you still up for that project the publications planning?” \n\n>  Minzhei scoffs, “Right, yeah, almost forgot about that.” He says after a beat. “Your sister is modelling for the magazine, y’know? Can’t miss that.” \n\n>  That singular comment about Xiangjin makes your throat itch. Your palms are burning, you notice. Minzhei slightly laughs, and continues to go on and on about her beauty. Something about how she’s the embodiment of perfect, and how her face fits her just right. \n\n >>  “Oh, by the way,” You look up from the floor to stare at your friend’s face. “I’ll have to borrow your camera… left mine at home, haha.” Minzhei sheepishly admits, spinning the ring on his finger. You nod solemnly as you tell him that he can fetch it once classes are over. \n\n>>  “Sorry, I have somewhere to go,” You abruptly tell him. “Duty calls.” For extra measure, and to persuade him even further, you flash a smile even though you know deep down that your homework has been done since this Monday and you’ve finished every assignment teachers have asked of you. \n\n>>  Minzhei does not notice the lie, or perhaps he’s too entranced with his ramblings of Xiangjin’s beauty to realize that her twin sister is boiling with rage at the sudden mention of her. Either way, he shrugs and waves you goodbye. “Alright then. Good luck?”")
+                break
+
+            elif choice_6 == 'X':
+                slow(">>  “Sorry, I have somewhere to go,” You abruptly tell him. “Duty calls.” For extra measure, and to persuade him even further, you flash a smile even though you know deep down that your homework has been done since this Monday and you’ve finished every assignment teachers have asked of you.  \n\n>>  Minzhei does not notice the lie in your statement and only nods his head. He shrugs and waves you goodbye. “Alright then, Good luck?”")
+                break
+                            
+            slow(">  After the brief interaction with your friend, you take a glance at the clock nearby and it tells you that it’s 6:40. Time surely goes by fast, you think. Walking to the direction of the outdoors of the gymnasium, you wait until it hits 7:00 AM. That way, you can distract yourself from the unknown clammy feeling in your palms and the tightening of your chest as you hear people nearby discuss the modelling gig your twin sister is participating in. \n\n>  ‘She’s sooo pretty!’ ‘Xiangjin has it all, huh?’ ‘It’s Ms. Perfect! How amazing!’")
+
+            for _ in range(3):
+                print(".")
+                time.sleep(0.8)
+                
+            slow(">  It makes your ears hurt. Your posture curls into itself, and you try to ignore the urge to stomp away from the bench as you hear more people gushing about Xiangjin. Why does she have it all, actually? From the very start, she’s had it all.  \n\n>  From the very start, she’s always been selfi—")
+            time.sleep(0.8)
+            print("!!!")
+            
+            for _ in range(3):
+                print(".")
+                time.sleep(0.3)
+                
+            slow(">  The bell rings. You stand up and fix your hair, as you run to your class section’s assigned position over in the gymnasium. You’re desperate to escape any mentions of Xiangjin.")
+
+            for _ in range(3):
+                print(".")
+                time.sleep(0.8)
+
+        slow(">  The bell rings. You stand up and fix your hair, as you run to your class section’s assigned position over in the gymnasium. You’re desperate to escape any mentions of Xiangjin.")
+
+        for _ in range(3):
+                print(".")
+                time.sleep(0.8)
+
+        slow("[...]   7:30 AM. \n\n>  The school assembly is over, and you’re thankful that you hear people’s annoying footsteps and loud conversations about classes and assignments rather than disgusting compliments about your twin sister. You grab your bag and head to your classroom upstairs. The first subject in your schedule is Science. You feel your face fill with dread at the thought of chemistry lessons. \n\n>  You’ve arrived at your classroom, just outside the door. The chatter inside doesn’t leak out into the hallway, so all you hear are mutterings and occasionally loud shouts.")
+
+        while True:
+            slow("Q:  Open the classroom door? \n[O]  Yes.")
+            time.sleep(0.5)
+            O_4= upper("\n>> ")
+
+            if O_4 == 'O':
+                slow(">  People do not look at you when you come in. You walk over to the seat near the window at the third row, first column, and gently drop your school bag into it. You have time to take a nap, so you do exactly that. \n\n>  Once your arms cradle the crown of your head into a warm embrace, your eyes close shut and your mind does not operate. You stay inside the dreamland for at least fifteen minutes before another bell rings and the door opens wide with a teacher coming in.")
+                break
+
+
+        for _ in range(3):
+                print(".")
+                time.sleep(0.8)
+
+        for _ in range(2):
+                print(" ")
+                time.sleep(0.8)
+
+        for _ in range(3):
+                print(".")
+                time.sleep(0.8)
+
+        slow(">  Morning classes are over. There is another bell ringing, but this time, it’s a reminder to eat. You drag your body upwards and make your way over to the cafeteria, buzzing with people.")
+
+        for _ in range(3):
+                print(".")
+                time.sleep(0.8)
+
+        while True:
+            slow("Skip?")
+            O_5 = upper("\n>> ")
+            
+            if O_5 == 'O':
+
+                for _ in range(3):
+                    print(".")
+                    time.sleep(0.8)
+
+            slow(">  Classes after lunch are evidently much more boring, you know that well already. The teacher is assigning everyone a task, which includes working with a pair or working solo, and it’s due on next Tuesday. You couldn't care less.")
+            break
+
+        for _ in range(3):
+                print(".")
+                time.sleep(0.8)
+
+        while True:
+            slow("Skip?")
+            O_6 = upper("\n>> ")
+            
+            if O_6 == 'O':
+                for _ in range(3):
+                    print(".")
+                    time.sleep(0.8)
+
+        slow(">  The bell rings, indicating that all classes are over, and students are either free to go home or go to their respective extracurriculars. You push open the door after finishing your part of cleaning duty. Unsurprisingly, Minzhei is there in the hallway, already pestering you for the camera.")
+        break
+
+        slow("\n>>  “Hey,” he calls. “What about the camera?” Minzhei points to the bag hanging around your temple, and you quickly shove it off your person and hand it to him. Delicately, of course. He thanks you easily, and offers to walk together to the designated venue of the photoshoot. \n\n>  Inside of your stomach, there is a pit hollowing itself out at the mention of the damned photoshoot Xiangjin has been chosen for.  \n\n>>  Minzhei fiddles with the camera in his hand, checking for any irregularities. “How…” You hear yourself saying, even though you have made it clear that you’re no fan of small talk. “How is, er, Xiangjin doing?” \n\n>>  At the mention of her name, Minzhei hesitates. He seems to be choosing his words carefully. “Well, how should I know?” he laughs. “I’m not exactly close with her. I’m just an admirer.”")
+
+        slow("\n\n>  An admirer, huh. She has a lot of those to the point it makes you sick, and Minzhei is one of them. You suppose that you cannot judge, because you have no interest in romance in the first place—solely because it’ll distract you from your studies. \n\n>  You make your way over to the benches outside, near the hallway, together. The photoshoot is about some kind of merchandise the school council is promoting, and the photography club was assigned to take charge of it. Your face morphs into something akin to irritation at that thought, somehow. \n\n>  Over in the benches, you see the council secretary, Qi, sitting on a bench, and beside her is none other than your twin sister. \n\n>>  “We’re not late, are we?” Minzhei questions them, as you both get closer to the other pair. \n\n>>  To that, Xiangjin laughs melodically. “No, of course not!” she says, and cranes her neck properly to face you. Her smile doesn’t quite reach her face. “Now that you two are here, shouldn’t we get started?”")
+
+        for _ in range(3):
+            print(".")
+            time.sleep(0.8)
+
+        slow(">  Setting up (well, not really, it only consisted of two cameras propped up onto tripods) the photoshoot was deliberately easy. Beside you, Minzhei is humming a song that used to be popular on the radio. In front of you—in front of all the cameras, specifically—Xiangjin and Qi are discussing what poses to make and how to make use of the props they have brought. \n\n>  Your fingers twitch as you caress the camera, touch grazing the picture button. You try to pry your eyes away from the sight, but you just cannot resist. Xiangjin, from the very moment she was born, was always strangely magnetic. \n\n>  She had a charm you did not have. She captured the gazes of many, being pretty and beautiful with those pale, pink lips of hers and silky, short black hair. Alongside being agonizingly attractive, Xiangjin was smart. She was witty, playful—almost too playful—and liked pulling the strings.")
+
+        slow("\n\n>  In short, she serves as your constant parallel and a taunting reminder of what you could’ve been. You sport the same silky, short black hair that she does, and even thinner, pale pink lips, though everyone always favours her over you for a reason you cannot begin to fathom. \n\n>>  Minzhei elbows you on the side, notices how you’re far too deep inside of your brain to notice that Qi is already beckoning you both to get ready. “Hey,” he warns, “Do a good job, alright?” \n\n>  You nod. You take that comment as an insult, because it’s implying that Minzhei doesn’t want you to do a “good job” for the sake of the photography club, but rather, he wants you to do a “good job” so that Xiangjin can shine in the sky so brightly like she always has. \n\n>  She poses in front of the camera with a small, perky smile. The product, a well-constructed hand-bag with a cute and sleek design on the front, is sitting delicately in her hands.")
+
+        while True:
+            slow("Q:  Snap a photo. \n[O]  Click!")
+            O_7 = upper("\n>> ")
+            
+        if O_7 == 'O':
+            slow("\n>  Xiangjin goes into another pose. This time, the bag hangs on her forearm, and her legs are a bit loose. On the side, where the camera cannot capture, Qi is instructing Xiangjin to tilt her head and smile a little more. (10) \n\n>>  You hear Minzhei mutter. “Isn’t she cute?” \n\n>  Absolutely not. Never in a million years, but you keep those thoughts to yourself.")
+            break
+
+        while True:
+            slow("Q:  Snap a photo. \n[O]  Click!")
+            O_8 = upper("\n>> ")
+            
+        if O_8  == 'O':
+            slow("\n> And another pose. Xiangjin simply lets the bag go and straightens her posture, giving her a chic, laid-back vibe.")
+            break
+
+        while True:
+            slow("Q:  Snap a photo. \n[O]  Click!")
+            O_9 = upper("\n>> ")
+            
+        if O_9 == 'O':
+            slow("\n>>  After three photos, thanks to you, the shoot is quickly wrapped up as per Qi’s cue. She claps with a big smile on her face, and says, “Good work, you two!”, even though Minzhei’s only contribution was setting up the camera and complimenting the model. \n\n>>  Xiangjin makes her way over after setting the bag on the bench. “Yeah, I really felt like a model there!” she says, quite bubbly, and pats you on the back. Such a gentle acknowledgement, but it makes you feel small and ugly. \n\n>  After some words of pleasantries, the cameras have returned to their respective camera bags and the background of the shoot has been quickly wrapped up in Qi’s hands. She bows, then waves you goodbye, but comments on your talent before turning her heel and walking away. \n>  Minzhei, on the other hand, has already said goodbye way before Qi had. He offers to hang out in the nearby convenience store afterwards, but you refuse as you need to finish up that project that has been assigned in the morning. \n\n>  You finish wrapping up the tripod, your own camera on your lap. Xiangjin approaches you.")
+
+            slow("\n\n>>  “Is Mom picking you up?” You shake your head. “Shame,” she sighs, “I won’t be home today. I have a sleepover at Ying’s place.” \n\n>>  You do not care, and resist the urge to scoff. Dumb, stuffy parties with dumb, stuffy popular girls. “Okay.” You say. “I’ll remember that.” \n\n>  You don’t know why you say that, because the worst thing in the world would always be remembering what Xiangjin does. Remembering what she does is akin to remembering what you’re missing out on, and what you’re not. \n\n>>  Having no words left to say, Xiangjin pouts and waves. “Fine. Goodbye, okay?” \n\n>  You reply to that by finishing up zipping the tripod bag, grabbing the camera on your lap as you sling it around you. You get up and walk quickly, shoving Xiangjin’s shoulder in the process. \n\n>  The clock on the entrance of the school says that it’s 6:30 PM. If you walk even faster, maybe you’ll be in time to make it to dinner, and then you can work on that project.")
+            break
+
+        for _ in range(3):
+            print(".")
+            time.sleep(0.8)
+
+        slow(">  You arrive at home. You slip your tripod bag on the couch and make your way over upstairs into your room. There’s little to no sound in the house, and there is no smell of the dinner you’ve been wanting, so you opt to take a small bath and then sleep.")
+
+        while True:
+            slow("Do not fall asleep. \n[O]  … Okay.")
+            O_10  = upper("\n>> ")
+            
+        if O_10 == 'O':
+            for _ in range(3):
+                print(".")
+                time.sleep(0.8)
+                slow("\n>  The wet crown of your hair feels uncomfortable against the plush of your pillows. You stare mindlessly at the popcorn ceiling, trying to count the dots instead of imaginary sheep. You’re trying not to sleep.")
+                break
+
+        while True:
+            slow("Do not fall asleep. \n[O]  I'll try.")
+            O_11  = upper("\n>> ")
+            
+        if O_11 == 'O':
+            slow("\n>  Your eyes are almost closing. You're battling the slumber in the dark, and your body grows weary with every attempt.")
+            break
+
+        while True:
+            slow("Do not fall asleep. \n[O]  ...")
+            O_12 = upper("\n>> ")
+            
+        if O_12 == 'O':
+            slow("\n>  Ultimately, you don’t win the fight, and you finally succumb to sleep.")	
+            break
+
+        for _ in range(6):
+            print(".")
+            time.sleep(0.8)
+
+        slow(">  You are in a dream and you feel like you’re floating. \n\n>  In this dream, you are eight years old. You have crooked teeth and blemishes on your pale nose in the photograph you’re analyzing. Beside you, Xiangjin is there in all her glory. \n\n>  She has short, messy pigtails, undoubtedly done by none other than herself. You, however, have hair that reaches your shoulders, and it sticks out in every direction imaginable. \n\n>  You look happy. You’re smiling wide and happy, although it’s in a photograph.")
+
+        slow("\n\n>  You remember this memory—You and Xiangjin, finding funny and glittery dresses to film in and try on. You remember being her photographer, just like how you are now, just without the envy and jealousy. \n\n>  In another photograph, this time it’s one signed, the swirly ‘X’ in both your names smeared with purple and blue marker. Xiangjin is posing dramatically, one leg up and two hands curled into peace signs. She has her hair down and bright lipstick on, and her get-up looks like a clown. \n\n>  She looks silly. You laugh looking at it, almost in tears, and you switch to another photograph. \n\n>  This one is a dark, behind-the-scenes look. Xiangjin is on your mother’s vanity, stool too tall for her to reach, and is applying blush on her cheeks very messily. Her expression is that of surprise, seemingly because you’ve snapped this photo sneakily. \n\n>  There are three photographs in your trembling hands. In one of them, you both are just children. The last two, it’s Xiangjin being imperfect. It is everything you’ve ever dreamt of.")
+
+        for _ in range(3):
+            print(".")
+            time.sleep(0.8)
+
+        slow(">  You’re not dreaming anymore and you’re not counting dots on popcorn ceilings. You snore gently and tighten your grip on the pillow on your side.")
+
+        for _ in range(3):
+            print(".")
+            time.sleep(0.8)
+            
+        slow("DAY TWO.")
+
+    slow(“>  Cold washes over your whole body as you jolt awake, sitting upright. You twist your neck to look at your alarm at the bedside table, and the cold that was once settling on your temple fades into relief. \n\n>  The clock says that it’s 10:30 AM, on a Saturday. That means that there’s no school today, so that means there’s a minus in your responsibilities, which benefits you more than it being an actual hindrance. No damned schedules, no extracurriculars, no projects to do, just you wallowing in boredom. \n\n>  You stretch your arms as you get up from the bed, putting your slippers on. You pass by the mirror and take note of your deep, eyebags and frizzy hair“)
+
+	while True:
+		slow(“\nQ:  Do you want to go outside? \n[O]  Yes, to the kitchen.")
+                       	time.sleep(0.5)
+O_13 = upper(“\n>> “)
+                      
+       		if O_13 == 'O':
+           			slow("\n>  You open the door and go downstairs. As you go down this time, you see your mother sitting on one of the living room chairs, the TV on and blaring, and she smiles as she realizes that you’re awake. She calls you to come over and pats the empty space right beside her. \n\n>>  “Yes?” You politely respond, in the middle of sitting. Your mother hums and passes you a sheet of paper, looking like it has been ripped out from a worn-down journal. \n\n>>  “This,” she points, “Is the grocery list, dear. Your father and I will have to attend a business meeting in the afternoon, and we won’t be available until Monday, okay?”")
+			break
+
+	while True:
+		slow(“\n[O] Okay.")
+                       	time.sleep(0.5)
+O_14 = upper(“\n>> “)
+                                  
+       		if O_14 == 'O':
+           			slow("\n>  At your response, she goes back to watching TV. You get up, making your way over to the kitchen, where the smell of rice noodles grow rampant. In the kitchen, there are no luggages and the boxes have long been discarded somewhere. It doesn’t feel that claustrophobic anymore. \n\n>  On the dining table, there’s a steaming black bowl that you assume is breakfast. Beside it, another carbon copy for Xiangjin. You frown at the realization that you have forgotten to tell your mother that your sister won’t be here in the morning. \n\n>  Still, you take a seat at the table and grab a fork nearby. Then, like routine, you mutter a short prayer before eating. 
+ht beside her. \n\n>>  “Yes?” You politely respond, in the middle of sitting. Your mother hums and passes you a sheet of paper, looking like it has been ripped out from a worn-down journal. \n\n>>  “This,” she points, “Is the grocery list, dear. Your father and I will have to attend a business meeting in the afternoon, and we won’t be available until Monday, okay?")
+			break
+
+	for _ in range(3):
+                print(".")
+                time.sleep(0.8)
+
+slow(“>  The bowl is empty and it’s in the kitchen sink. You drink a glass of water and hurry to take a bath upstairs inside of your room. Your mother has also retreated to her room, you take note, the faint rustling of bedsheets being heard outside being a sign. \n\n>  You don’t take note of it and open the door. You beeline towards the bathroom and you take a quick shower.”)
+
+	for _ in range(3):
+                print(".")
+                time.sleep(0.8)
+
+	slow(“\n>  After the shower, you’re staring at yourself in the mirror while brushing unsightly strands on your hair, trying to flatten them. Your eyes don’t look that depressed and your frown isn’t grumpy anymore, like they are usually.  \n\n>  Once you tear your eyes off from the mirror, your phone vibrates and then rings loudly on your bedside table. You scowl, then walk up to it, trying to see the name of the caller. \n\n>  In big, but not really bold, white letters, it reads—Minzhei. Him, again.”)
+
+
+	while True:
+		slow(“\n\nQ: Take the call? \n[O]  It won’t hurt to do so. \n[X]  No. ")
+                       	time.sleep(0.5)
+choice_7 = upper(“\n>> “)
+
+       		if choice_7 == 'O':
+           			slow("\n>  Upon answering the call, a familiar booming voice takes over. “Xiejin! Buddy,” he says, joyfully, and then his voice deepens and comes out as more of a desperate plea. “Please, this’ll be the last time, I swear—Could I borrow your camera again?” \n\n	>  Your empty expression, probably, you think, is currently replaced by a permanent frown. So much for not being grumpy anymore. \n\n	>>  “Why?” you ask, as you put your hairbrush down on the bed. There’s a knot of hair inside of it, in between the bristles. You ask Minzhei why, but your definite answer is already a no. He tells you that it’s important first, a telltale sign of him just forgetting his own camera, and then continues on to say that they’re shooting a video for a project. \n\n	>>  Minzhei sighs, “Please?” You can visualize his face already, it makes your stomach churn in distaste. “It’s a continuation of that modelling gig your sister’s in!” \n\n	>  At the mention of Xiangjin, who’s probably enjoying herself—laughing, smiling, making jokes with her close friends—-You say no to that request. Immediately afterwards, you end the call. \n\n	>  You are not going to deal with a morning that’s already filled with mentions of Xiangjin's name. No way. Not in any universe, not in any world. She’s already tormented you enough for seventeen years. \n\n  >  You put your phone down on the table again, albeit a little harsher than you intended to do so. With a huff, you button up your white shirt fully and roll the sleeves up to your elbows. You decide to underdress, considering that you’re only going to a grocery store anyways.")
+			break
+
+       		elif choice_7 == 'X':
+				slow(“>  You put your phone down on the table again, albeit a little harsher than you intended to do so. With a huff, you button up your white shirt fully and roll the sleeves up to your elbows. You decide to underdress, considering that you’re only going to a grocery store anyways.”)
+			break
+           			
+	for _ in range(3):
+                print(".")
+                time.sleep(0.8)
+
+	slow("\n>  Before you leave, you’re in the living room with the TV still running, and your mother is not here. The list that she gave sits quietly on the table, pinned down by the black remote control. You grab the remote, end whatever reality show is on the TV, and turn it off. Then, you grab the list.")
+
+	while True:
+		slow(“\nQ:  Look at the list? \n[O]  Yes.")
+O_14 = upper(“\n>> “)
+                       	time.sleep(0.5)
+                                  
+       		if O_14 == 'O':
+           			slow("\n>  It reads: \n\n-  Eggs \n-  Canned goods (Anything is fine, you take your pick <3) \n-  Vegetables (Potatoes, cabbage, carrots) \n-  Orange juice \n-  Rice noodles \n-  Fish \n(G/N:  Please look at this a little more carefully, you’ll need it at a later date.)
+ht beside her.”)
+			break
+
+	slow(“>  It all sounds pretty standard. You set the list back to its original place. On the table, a little to the left, there’s a pretty pink wallet left by your mother. Inside of it, there’s ¥127.27, enough for the groceries listed. \n\n>  You grab the wallet and place it in your own bag, and then put the list into your pocket. You sling the handbag onto your shoulder and stop near the front door. The clock, right above it, tells you that it’s 12:00 AM. \n\n>  Once you put on your shoes, your hand is already reaching for the door, phone in hand as you open it fully. You grab the keys hanging from the wall near the light switch and lock the door from the inside, and then you’re outside. \n\n>  The walk will take about fifteen minutes. Don’t let your mind wander off elsewhere.”)
+
+	for _ in range(3):
+                print(".")
+                time.sleep(0.8)
+
+	slow(“>  On the way to the grocery store, you pass by a park. Pass by that park, and you arrive at the local convenience store, where your favorite instant noodles are sold. And then, when you arrive at that convenience store, you take a sharp left and then you’re at your destination. \n\n>  You keep those instructions in mind. To get your mind off things, you’re counting how many steps you have taken from your house. You’ve taken about a hundred steps, you feel, but your mind keeps forgetting once you hit about twenty.  \n\n>  You're starting to walk faster now that you’ve come to that realization. Then, even faster, once you notice that your right foot is on the pavement and your left is on the patch of grass. The difference irks you, something brewing inside of your stomach. You can’t help but wonder if you’ve caught something.”)
+	
+slow(“>  Birds are chirping. Trees are swaying. You’ve arrived at the local convenience store, but to be more specific, it’s more like you’ve already passed by it, and you’re just walking until you hit an intersection, which then you’ll take the left direction. \n\n>  You’re not counting your steps anymore. You’ve curled your hand into a fist, stuffing it into your jean pockets, coincidentally the one with the crumpled list inside. “)
+
+	for _ in range(3):
+                print(".")
+                time.sleep(0.8)
+
+	for _ in range(2):
+                print(" ")
+                time.sleep(0.8)
+
+	for _ in range(3):
+                print(".")
+                time.sleep(0.8)
+
+	slow(“>  Birds are chirping. Trees are swaying. You’ve arrived at the local convenience store, but to be more specific, it’s more like you’ve already passed by it, and you’re just walking until you hit an intersection, which then you’ll take the left direction. \n\n>  You’re not counting your steps anymore. You’ve curled your hand into a fist, stuffing it into your jean pockets, coincidentally the one with the crumpled list inside.”)
+
+	for _ in range(3):
+                print(".")
+                time.sleep(0.8)
+
+	for _ in range(2):
+                print(" ")
+                time.sleep(0.8)
+
+	for _ in range(3):
+                print(".")
+                time.sleep(0.8)
+
+grocery_list = 
+
+while True:
+	slow(“\nQ:  Do you want to check the list? \n[O]  Yes. \n[X]  No, check it out later.”)
+	choice_8 = upper(“\n>> “)
+
+if choice_8 == ‘O’:
+
+
+elif choice_8 == ‘X’
+	slow(“>  You sigh as you make your way over to the aisles. There’s a bright blue basket that’s most importantly empty, and you grab it before anyone else can. You hesitate, basket in your hand, as you stand still and contemplate where to go next.”)
+
+	while True:
+		slow(“\nQ:  Where to? \n[1]  Perimeter aisles. \n[2]  Inner aisles.")
+                       	time.sleep(0.5)
+choice_9 = upper(“\n>> “)
+                                  
+       		if choice_9 == '1':
+           			slow("\n[1]  >  You decide to go to the perimeter aisles. The hanging labels on the ceilings are labeled ‘PRODUCE’, ‘DAIRY’, and ‘MEAT AND SEAFOOD’ respectively. You decide to go to the first aisle. \n\n	>  There are various foods lined up onto shelves, some brighter colored than others, with big pictures of promotion models on the covers. You’re only here for vegetables, however, and you stand in front of the select few you’ve discovered hidden away at the back. \n\n	>  Tomatoes, potatoes, spinach, carrots, then cabbage. Beside that rack, there’s fruits. Apples, mangoes, and then other products you cannot name. At the back, near to the left, there’s eggs, milk, and cheese.
+t beside her. \n\n>>  “Yes?” You politely respond, in the middle of sitting. Your mother hums and passes you a sheet of paper, looking like it has been ripped out from a worn-down journal. \n\n>>  “This,” she points, “Is the grocery list, dear. Your father and I will have to attend a business meeting in the afternoon, and we won’t be available until Monday, okay?”)
+			break
+
+	while True:
+		slow(“\nQ:  Do you want to check the list? \n[O]  Yes. \n[X]  No.")
+                       	time.sleep(0.5)
+choice_10 = upper(“\n>> “)
+                                  
+       		if choice_10 == 'O’:
+
+		elif choice_10 == ‘X:
+			slow(“>  You’re going to look too weird if you keep standing here. What were you supposed to buy again?”)
+
+
+—-
+
+
+
+—--
+
+		elif choice_9 == ‘2’:
+			slow(“[2]  >  You decide to go to the inner aisles. There’s general grocery—The canned goods, snacks, sauces, and other packaged items. There’s also frozen goods, breakfast goods, everything you can list at the top of your head. \n\n	>  There are various foods lined up onto shelves, some brighter colored than others, with big pictures of promotion models on the covers. You need something from the frozen goods aisle and general grocery. \n\n	>  There’s meat, pork, bacon, and fish, alongside spam and tuna. In the other aisle, there’s pasta, rice noodles, and various sauces. The other side of that aisle is full of juices—Apple juice, orange juice, and some kind of healthy mix you don’t bother reading the cover of. “)
+
+—-
+
+	slow(“>  Your selected picks of items have been thrown into the basket, and you’re already going towards the cashier with an empty line and wallet open. You put the items on the counter and the cashier doesn’t offer you any award-winning smile, which you’re thankful for. \n\n>>  “Money, please?” he asks impatiently, palm out, “¥99 is your total.””)
+
+	while True:
+slow(“\nTake the money out of the wallet. \n[O]  Put it in his hand.”)
+		time.sleep(0.5)
+O_15= upper(“\n>> “)
+		if O_15 == 'O':
+slow(“\n>  You hand him the money, all of it, actually, because you’re too desperate to claw yourself out of this building. Even though it’s well conditioned, you feel like you’re burning. You pick up the yellow, plastic bag with all your groceries inside of it and tell him to keep the change. \n\n>  You make your way over to the exit, the guard takes out your receipt even though he does not spare a glance at it, and you’re free to go outside. \n\n>  The breeze doesn’t make it better, but at least you’re not inside of that grocery store. The sky is brighter than you remember. It blinds you, makes you squint your eyes, but nonetheless you keep trudging forward.”)
+			break			
+	
+	for _ in range(6):
+                print(".")
+                time.sleep(0.8)
+
+	slow(“>  You’re at the convenience store and your stomach is rumbling out of hunger, but because of the urgency you feel to return home, you ignore it. You continue walking and walking and walking. You don’t stop to count your steps.”)
+
+	for _ in range(6):
+                print(".")
+                time.sleep(0.8)
+
+	slow(“>  You’re almost there, just pass by the park then you’re already at home. The sky is getting warmer. It’s a telltale sign of the night coming.”)
+
+	for _ in range(6):
+                print(".")
+                time.sleep(0.8)
+
+	slow(“>  You’re at the front door. Your keys are already in the keyhole and you twist it to open the door fully. The light is on, so that means someone’s here. \n\n>  Exactly like you thought, Xiangjin’s figure comes into full view. She has a high pony tail up and half her make-up gone. She must’ve been in the bathroom when she heard the door open up. You eye her up and down, raising a brow. \n\n>>  “No hello?” she says, snapping you out of your trance. “Geez, Xiejin. How about you notify me when you’re going home—and the bag, c’mon, give me that.” She lets go of the wet towel and puts it on her shoulder, snatching the plastic bag out of your hands. She gets to the kitchen before you do. \n\n>  You don’t really say anything, because why should you? Xiangjin is too stubborn, anyway. You follow her to the kitchen. The bag is on the marble counter and your sister is sitting on one chair, her phone propped up in front of her as if it’s a camera. She’s removing her make-up that way. \n\n>  You open the refrigerator trying to look for someone that calms your hunger. You curse yourself on the inside, because you should’ve gotten a snack at that convenience store while you were at it. \n\n>>  “You have a lot of make-up on,” you comment, chugging down a glass of water. It doesn’t help the hunger you have. “What for?”
+
+
+slow(“\n\n>>  “Video shoot, more photos, all that stuff.” Xiangjin says, too focused on her face to properly continue the conversation. “I thought you knew, being the photography club president and all? Minzhei was there, you know.” \n\“>  You know and you don’t care. You don’t care at all, because Xiangjin was there. You resist the urge to tell her that, even though the words are resting right on top of your tongue. \n\n>  Another glass of water, before she tells you, “You’re too focused on the wrong things, Xiejin.” another gulp, because you want to drown yourself from the inside out. “You should’ve seen me there! Your talent’s been wasted.” \n\n>  You wouldn’t want to waste it on someone like her, anyway. \n\n>>  “I don’t care,” you hear yourself saying, before you can catch it. “You were there, so why should I care? You steal everything away from me, Xiangjin! It’s not fair.” \n\n>>  To that, Xiangjin reacts, almost violently. The table shakes as she shakes her head furiously, her whole body trembling. She’s never reacted this way before. “Xiejin!” she shouts. “You didn’t just say that. What do you mean I steal everything from you?!””)
+
+slow(“\n\n>  You put down the glass with much more force than you intend to let out. You storm past her, already heading up towards the stairs and into your bedroom. Before you can do so, however, another phrase rings out from Xiangjin’s mouth. \n\n>>  “Hey!” she yells, a bit squeezy. “Don’t run away—Xiejin! Oh my God, you’re insufferable!” \n\n>>  And before you slam the door, you shout back, “And you’re the worst!” \n\n>  She is. She really is. Don’t let anybody tell you otherwise. You slam the door promptly after that embarrassing shout, and kick your shoes off to the corner of your room. There, your bag leaves your shoulders and before you know it, you’re already on your bed. \n\n>  It’s the only consistent comfort you receive after each day. You hug the white pillows tightly and wrap the flower-patterned blanket around your waist, so that it curls onto you like a warm, warm hug. \n\n>  You could fall asleep like this—You could, definitely, and you wish you’d never wake up again.”)
+
+	for _ in range(3):
+                print(".")
+                time.sleep(0.8)
+
+	while True:
+slow(“\nClose your eyes. \n[O] …”)
+O_16 = upper(“\n>> “)
+		if O_16 == 'O':
+					
+	for _ in range(3):
+                print(".")
+                time.sleep(0.8)
+
+	slow(“>  You’re dreaming, yet again. The dream is a happy dream, happier than you remember, probably, because you’re dressed in funny blouses and bright bows adorn your hair. You’re wearing the biggest smile ever as you’re sitting on a chair at the dining table. \n\n>  There’s a birthday hat that sits atop your head. There’s also giggling right beside you, and it’s coming from your sister—Xiangjin. Xiangjin sports the same outfit, more pink than purple, and has the same silly birthday hat. She, as well, has a bright smile on her face. \n\n>  Selfishly, you think, your smile is a bit brighter than hers. \n\n>  This occasion is a birthday party. A birthday party for the both of you, as sisters and as twins. Your mother is sitting across from you, clapping, singing happily. Your father is beside you, too, serving you both chocolate cake. \n\n>  It’s the happiest birthday party you’ve ever experienced. You wish it wouldn’t end, but as all dreams do—It evaporates. \n\n>  Just a little while longer, you savour the memory. It’s like a precious fragment stored inside of your mind. Something that hurts you like a glass shard, but very fragile and forgiving. \n\n>  Where did all the time go?”)
+break
+
+        slow("DAY THREE.")
+
+        for _ in range(3):
+                print(".")
+                time.sleep(0.8)
+
+        slow(">  You wake up. As soon as you open your eyes, there’s an ache in your stomach that you identify as hunger. You feel as if a heavy weight has attached itself onto your back and has never left—It’s getting harder to wake up nowadays. \n\n>  Still, there’s some life left inside of you, and you yawn as you sit upright yet again. You wear your slippers immediately, and then you stand. Your palms are sweaty and your neck is itching. \n\n>  You move closer to the door, not sparing a glance at the figure that’s supposed to be yourself in the mirror. Time and time again, you are contemplating whether or not to go outside and go downstairs. ")
+
+        while True:
+            slow("Q:  The third time in a row, you note: Do you want to go outside? \n[O]  … Yes.")
+            O_17= upper("\n>> ")
+            if O_17 == 'O':
+                slow("\n>  You pry open the door small enough so that you can squeeze out and sprint downstairs. This time, there is no homey smell of steamed buns and hot, savory rice noodles in the kitchen. The living room light is turned off, the kitchen as well, and you rub your eyes switching the light on. \n\n	>  The clock says that it’s 7:00 AM. 7 AM on a Sunday. You start walking inside of the kitchen, briefly stopping by the doorway. If you stand still any longer, you’re going to let the guilt seep inside of you and that is the last thing you want to happen. \n\n  >  As you walk to the stovetop, you place your hand on the marble of the counter. Cooking has never been your strong suit, all you can do is make decent fried spring rolls. You have a couple of frozen wrappers stored inside of the fridge, so you suppose you could make them today. \n\n	>  You open up the freezer, spotting the wrappers right away. You put them on the counter, just a little on the edge of the sink, and you let them unfreeze for convenience more than anything. \n\n	>  You set up a bowl. Only one, with a pair of utensils to match. Before you know it, you’re preparing the ingredients with a knife and a cutting board, and you’re losing yourself in the remedy of cooking. Despite how calming it is, it doesn’t quite soothe your nerves correctly.")
+                break
+
+        for _ in range(6):
+            print(".")
+            time.sleep(0.8)
+
+        slow(">  The bowl of rice noodles is undoubtedly ready, but you’re really not. You’ve left it piping hot on the kitchen table while you’re dreading the interaction you’re about to face. You’re at Xiangjin’s door, preparing to knock. You might as well just get this over with. \n\n>  After all, it’s the only way you’re able to say sorry. If you were going to do this verbally, you think you might just end up crying. This bowl of rice noodles can double as an apology and a birthday present as well, so it’s like killing two birds with one stone. \n\n>  You press your knuckle onto the door.")
+
+        while True: 
+            O_18 = upper("\n>>  ")
+            if O_18 == 'O':
+                slow ("\n..\nKnock. \n[O]  !!!")
+                time.sleep(1)
+                O_19 = upper("\n>>  ")
+
+                if O_19 == 'O':
+                    slow("\n.\n[O]  Wake up.")
+                    time.sleep(1)
+                    O_20 = upper("\n>>  ")
+
+                    if O_20 == 'O':
+                        for _ in range(3):
+                        print(".")
+                        time.sleep(0.8)
+                        break
+
+    slow(">  Three times. One, two, three. Three times, and yet, she’s still not answering. You’re about to yell her name tightly, but your throat seems to not work and by the time you’re already going to knock again, the touch of your knuckle seems to open the door. Oh. It’s unlocked. \n\n>  You feel compelled to walk in uninvited. Xiangjin’s room is much neater than you remember. When you two were a child, she was always the messy one between the both of you. Now, it seems like the tables have turned. \n\n>  Following your gut, and because she doesn’t seem to be here, you take a step inside of her room and feel the soft carpet brush against your socked foot. You take an interest in her study desk, because out of all the things that are in this room, this desk seems to be the messiest. \n\n>  The furniture is dark wood and is accessorized by many purple things. Xiangjin used to like pink more. There’s a stack of notebooks on the right part of the desk, with school supplies, black and blue pens. Most interesting of all, in the center, there’s one neat sheet of paper. \n\n>  It reads, on the top, in big, bold black letters: XIE JIN's SURPRISE PARTY!")
+
+    slow(">  Is this an insult? You think it is. That’s only the main header. On the paper, there are things labeled as preparations, materials, and like any other birthday should have: A cake. \n\n>  The last birthday party surprise you had was when you were fifteen, young and shining, but never as bright as Xiangjin. Your homeroom teacher had planned it, but it didn’t really do much for your deteriorating inferiority complex as you soon realized that this surprise was just standard procedure for every birthday celebrant in the classroom. \n\n>  Before you could take a closer look at the paper, it’s snatched from your grasp. \n\n>>  “Hey!” Xiangjin scolds, but it comes out more like an embarrassed scream. “You’re not supposed to be here!” Her shirt is worn loosely at her sides and her hair has not even dried yet. \n\n>>  At the silence, she gets even angrier. Her embarrassment turned into something like irritation, although more controlled. “Have you ever heard about privacy, Xiejin? Get out, seriously! I have to get ready.” \n\n>  Nothing comes out from your mouth. You’re not too sure whether it’s because of shock—Because once in your life, you’ve finally found some kind of recognition from your sister, even though you’ve convinced yourself that it’s a mockery plan—Or because the way she speaks at you sounds so demanding that it has stunned you into silence.")
+
+    slow(">>  At that, she shoves you in the direction of the door. “Out!” a scream, more than anything, “Out, now! You’re insufferable!” \n\n>  Is screaming at your sister suitable for a birthday present? Perhaps. Before you make it out, though, you resist her pushes and ignore the bubbling feeling in your chest that urges you to scream back at her. \n\n>>  “I made you something,” another push. Almost like she doesn’t wanna hear anything you say. It’s a familiar feeling, and makes you feel too unsafe. Then another push. “It’s in the kitchen, if you wanna eat it.” \n\n>  The door closes in your face. The bubbling urge is close to bursting. Before it can, though, you head on over to your own bedroom. You lock the door, preparing for a nap. You’re going to sleep all this anger and excitement off, pray that it goes away sometime soon. \n\n>  You practically jump into your bead, head smothered inside of the pillows. Sleep. Go to sleep.")
+
+        for _ in range(6):
+            print(".")
+            time.sleep(0.8)
+
+        slow(">  You’re in a dream. This time, it’s quite faint, like a distant fog inside of your memories, or a cloud disrupting your line of sight. \n\n>  In this dream, you’re looking at a mirror and still see yourself. Though, upon inspecting your face even further, you notice that your glasses are missing and there’s a mole under your eye. \n\n>  The realization comes to you like an open floodgate. In this dream, you’re not you, but rather you are your sister, Zhang Xiangjin. She’s—You—perfect looking in the mirror, her hair tucked neatly behind her ears. She’s smiling in the mirror. You’re smiling in the mirror. \n\n>  You look perfect. You’ve always been perfect. You wish you were Xiangjin. This dream is everything you have ever dreamt of. This dream will always remain a dream. \n\n>  Nothing more, nothing less.")
+
+        for _ in range(6):
+            print(".")
+            time.sleep(0.8)
+
+        slow(">  You wake up, amidst cold blankets and suffocating pillows. Your head throbs as you shake it. Your slippers are all the way over near your doorway, not even paired up anymore, and you need to get up and drag yourself across the room in order to slip them on. Your hand is on the door.")
+
+        while True:
+            slow("\nQ:  Do you want to go outside? \n[O]  …Yes. \n[X]  Sleep in.")
+            time.sleep(0.5)
+            choice_11 = upper("\n>> ")
+
+            if choice_11 == 'X':
+                slow(">  You decide to sleep in, for the betterment of your heart. You kick off your slippers and call it a day. You’re turning back, ripping your hand off the door, and you make your way over to the bed again. \n\n>  It’s going to be fine. Nothing will happen, you’re sure. It’s just a simple nap after all.")
+
+                for _ in range(6):
+                    print(".")
+                    time.sleep(0.8)
+
+                slow(">  You wake up to confetti and because of that, you scream and jolt awake. Your eyes are blurry and you quickly rub the tiredness out of them, looking widely disturbed as you glance around your room. \n\n>  In front of you, your sister is there—Or is that you? Either way, she’s sporting a huge grin on her face, a party popper in her hands. Was this a surprise or what?  \n\n>>  “Xiangjin?” you question. Your voice has a certain edge to it. \n\n>>  To that, Xiangjin smiles even wider. It reaches her eyes. She hugs you, soft and warm, nothing like the blanket you’ve been wrapped in while sleeping, and lets go of the party popper momentarily. “Happy birthday, you big baby!” \n\n>  Ah, right. It’s both of your birthdays. \n\n>>  Hesitantly, you return the hug. Your arms curl around her being, too, and then it gets tangled in her slightly long hair. “Okay,” you say, shakily. “Happy birthday, Xiangjin.”")
+
+                for _ in range(6):
+                    print(".")
+                    time.sleep(0.8)
+
+            elif == 'O':
+                slow("  >  You step outside, and then you hear lively music playing before you even get a step on the stairs. It’s coming from the direction of the kitchen, and you quickly walk down the stairs. Xiangjin is singing along with the lyrics of the song from her phone. \n\n	>>  Something about how the musician misses her youth or whatever. You don’t really care that much to the point you focus on it. Again, you remind yourself that it’s only a song, and you promptly usher yourself to the doorway to disrupt her mini karaoke session. \n\n	>>  “Oh?” Xiangjin says, out of feigned surprise. And then a beat afterwards, after the lady singing from her phone has finished belting out the last note in the song. “Good morning? Again?” \n\n	>>  Your expression screams at her to skip the pleasantries. “Fine, then,” she scoffs, “Let’s just ignore what happened, sure. It’s always you and your avoidant attitude.” \n\n  >  Xiangjin is one to never back down from a challenge. If she has an issue, she’ll confront it through and through. That’s one thing you dislike her for. You prefer methods such as ignoring or forgetting. You don’t want to prolong the problem even further.")
+
+                slow("\n\n>  You pass by her and maneuver around the marble island to get some water. The glass touches your lips like a ghost and the water feels like scorching, hot lava. \n\n   >>  “You’re annoying,” you hear her mutter under her breath. “Seriously, Xiejin.” then again, as much as she is stubborn, Xiangjin doesn’t think about what she’s saying towards you. Always too impulsive, to the point it makes you go crazy. Absolutely insane, disgusting, even. \n\n>  The song stops, so it’s just the both of you existing in silence. This is where the conversation should end. Xiangjin should know that by now—They’ve played this game countless times before, like a never ending and unfulfilling rat chase that never goes anywhere. \n\n>  She’s going to insult you again, you know it. She’ll do that so you’re going to stop bothering her. She’ll do that so she can gain your attention. A painful defense, one you detest very much.")
+
+                slow("\n\n>>  Except, the insult she says is not about your appearance. Not about how your glasses are crooked. Xiangjin says, with a perfectly imperfect smile on her face, twisting with amusement (or what you think is amusement), “Remind me why you’re even my sister?”\n\n>  Now, that. That marks the end of this conversation. Before you can think straight, you’re pushing her just like how she pushed you earlier, except for the fact that your intention is to hurt her rather than push her out.” \n\n>  The knife doesn’t feel heavy in the crook of your palm. Xiangjin is on the floor, staring wide-eyed, as if she’s a statue. Her face pales, white and unmoving. \n\n>>  “Wait, you’re not going to do this, are you?” \n\n>>  “Xiejin!” \n\n>>  “Stop, stop, stop! You’re going to kill me!”")
+
+                for _ in range(6):
+                    print(".")
+                    time.sleep(0.8)
+
+                for _ in range(3):
+                    print(".")
+                    time.sleep(0.8)
+         
+                while True:
+                    slow("Will you, really? \n[O]  …")
+                    time.sleep(0.5)
+                    O_22 = upper("\n>> ")
+
+                for _ in range(6):
+                    print(".")
+                    time.sleep(0.8)
+                      
+                if O_22 == 'O':
+                    slow(">  And then, briefly, everything you see is red. It’s undying anger, or maybe something more. But the biggest question, here, is this— \n\n>  Do you see it, Xiejin? You should look at what you just did. \n\n>  Do you see it? Look closely, now—do you see it? Start with the rib cage, if you want, Xiejin, it’s going to make this easier. ")
+                    break
+
+                while True:
+                    slow("\nStare at it. \n[O]  …")
+                        time.sleep(0.5)
+                        O_23 = upper("\n>> ")
+                      
+                if O_23 == 'O':
+                    slow("\n>  Hands under your ribs, prying at them, little fingers poking, poking. Sometimes it tickles. Sometimes they hurt. She teased you a lot when you were a kid, took advantage of how easily she was able to make you laugh. You felt like a dandelion, then, like she was blowing, again and again and again, until all your seeds have torn from your center.")
+
+                for _ in range(3):
+                    print(".")
+                    time.sleep(0.8)
+
+                slow(">  Just keep going, anyway, but don’t think about laughing and dandelions and your seeds getting ripped apart from your body. Just a little to the left, and there’s the hand. You remember the hand, right, Xiejin?")
+                break
+         
+                while True:
+                    slow("\nStare at it. \n[O]  …")
+                    time.sleep(0.5)
+                    O_24 = upper("\n>> ")
+                      
+                if O_24 == 'O':
+                    slow("\n>  The left one, curled lightly. She didn’t fight. She couldn’t, even if she tried to, because you’re her sister. There’s red on it; blink past. Don’t look at the red, yet, Xiejin, just look at the hand. The hand that held yours on the way to school, to the park, to the bed. The hand that wiped away your tears when you were younger, the hand that caressed your cheeks.\n\n>  That cut you. That held you. That loved you. That hurt you.")
+
+                    for _ in range(3):
+                    print(".")
+                    time.sleep(0.8)
+
+                    slow(">  You’re avoiding the truth, Xiejin. Look at what you’ve done. You promised to look, right? So look. To the right, up a little. Down a little, and then up—there, that’s it. \n\n>  It’s the chest. Ignore the knife for now; ignore the blood too, just look at the chest. \n\n>  It’s wide open. Bleeding. Onto the floor. Onto you. That was the red from earlier, you remember, Xiejin? That undying anger. Remember the red on her hands, too? Well, wouldn’t you know, your hands are red too! \n\n>  You both are matching, Xiejin, even though you’ve never wanted to. You needed to be her, your sister, your twin. You’re the same as her, really, even like this. When you were younger, she used to pretend to be you, not really pretend, because in a way, she is you. \n\n>  You’re her. She’s you. Isn’t that neat, Xiejin, the dream you’ve always wanted? You were never ‘you’ to begin with, even if you felt you were.")
+                    break
+
+                    while True:
+                        slow("\n>  Speaking of the knife, it’s in her chest. Are you ready? \n\nAre you? \n[O]  Yes. ")
+                            time.sleep(0.5)
+                            O_25 = upper("\n>> ")
+                      
+                    for _ in range(3):
+                        print(".")
+                        time.sleep(0.8)
+
+                        if O_25 == 'O':
+                            slow("\n>  Take it out; the squelch is accompanied with even more red, more blood, but not as much as it might have been, if she were alive. You should lick it clean. You should stab her again. You should make another portion of that bowl you cooked for her without washing it. \n\n>  Your sister, your twin. Look at her neck, her face. It’s reflected in the blade of the knife and it’s so, so imperfect. It’s reflecting, so it’s not that hard—Why are you making this so hard? Xiejin, look at her face, Xiejin. The dead one. \n\n>  Her cheeks are yellow, a little pink with wasted blush. Her eyes are bulging wide open. Your eyes are open. She’s you and you’re her, so is it the both of you dead on the kitchen floor? Who’s observing this? Who’s observing you?")
+
+                            for _ in range(3):
+                                print(".")
+                                time.sleep(0.8)
+
+                            while True:
+                                slow("\n>  Nobody. Your sister has always been brighter than you, you know it’s true, don’t you, Xiejin? Don’t pretend otherwise. The problem has always been you. \n\n>  Now, you should put it all together. The ticklish rib cage, the multipurpose hand, the unbeating heart, the unblinking eyes. Put it together, every single one of it. You can do it, she knows you can. \n\nQ:  Who is it? \n[X]  …")
+                                time.sleep(0.5)
+                                O_26 = upper("\n>> ")
+                      
+                            if O_24 == 'X':
+                                break
+
+                            while True:
+                                slow("\n>  Come on. You can do it, surely, you know you can. Xiejin, you know her so well, don’t you? She’s your twin, your sister, she’s you. \n\nQ:  So, who is it? \n[X]  …")
+                                time.sleep(0.5)
+                                O_27 = upper("\n>> ")
+                      
+                            if O_27 == 'X':
+                                break
+
+                            while True:
+                                slow("\n>>  Xiejin. Recount the details and run through them again. Look at her eyes, her neck, her chest, and her hand. Look at all the red and look at her, in all her glory. You can do it, you know you can. \n\nQ:  Xiejin, who is it?")
+                                time.sleep(0.5)
+                                O_28 = upper("\n>> ")
+                      
+                            if O_28 == 'XIANGJIN':
+                                slow("\b>  That’s right! Congratulations.")
+         
+                            for _ in range(3):
+                                print(".")
+                                time.sleep(0.8)
+
+slow(">  You’ve guessed right. It’s Xiangjin. She’s dead. \n\n>  You’ve killed her, Xiejin. Look at what you’ve done.")
+
+    for _ in range(6):
+        print(".")
+        time.sleep(0.8)
+
+slow(">  You’re happy, aren't you, Xiejin? You can let go of the knife now, and you can hold your sister’s hand. You can hold her now, even, lay down beside her and her cooling body. Look into her eyes. They’re open and blank. Blank. \n\n>  Your eyes, too, or is it hers? She could be sleeping if not for her open eyes, she could be awake if not for her unmoving chest. Keep your eyes open, too, just look at your sister. Look at what you did. Look at the ribs and the chest and the hands and the empty, empty eyes. \n\n>  Hold your sister, Xiejin. Hold the girl you’ve just murdered. The girl you loved and feared and hated and killed. Let both of you shine brighter together.")
+
+    for _ in range(3):
+        print(".")
+        time.sleep(0.8)
+
+slow("TRUTH ENDING. \nPICTURE PERFECT")
+
+—
+
+    elif choice == 'CREDITS':
+        print("..")
+    
+    elif choice == 'QUIT':
+        break
+    
+    else:
+        print("\nERROR!")
+
+
